@@ -722,23 +722,19 @@ button {
 @media (max-width: 480px) {
     .container {
         padding: 0 8px;
-        /* Figma main frame padding */
     }
 
     .hero__title {
         font-size: 24px;
-        /* Figma mobile headline */
     }
 
     .mission__text {
         font-size: 16px;
-        /* Figma mobile body */
     }
 
     .features__grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
-        /* Tighter gap for horizontal cards */
     }
 
     .feature-card {

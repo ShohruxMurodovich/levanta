@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Elements to animate
     const animElements = document.querySelectorAll('.feature-card, .comparison-item, .process-step, .pricing-card');
     animElements.forEach(el => {
         observer.observe(el);
